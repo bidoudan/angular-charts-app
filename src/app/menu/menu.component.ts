@@ -14,23 +14,26 @@ export class MenuComponent implements OnInit {
   }
 
   goToLineChart(){
-    this.router.navigate(['/lineChart'])
+    this.router.navigate(['/lineChart']);
   }
   goToBarChart(){
-    this.router.navigate(['/barChart'])
+    this.router.navigate(['/barChart']);
 
   }
   goToRadarChart(){
-    this.router.navigate(['/radarChart'])
+    this.router.navigate(['/radarChart']);
 
   }
   goToDoughnutChart(){
-    this.router.navigate(['/doughnutChart'])
+    this.router.navigate(['/doughnutChart']);
   }
   goToPieChart(){
-    this.router.navigate(['/pieChart'])
+    this.router.navigate(['/pieChart']);
   }
   goToBubbleChart(){
-    this.router.navigate(['/bubbleChart'])
+    this.router.navigate(['/bubbleChart']);
+  }
+  goToUploadImage(){
+    this.router.navigate(['/upload']);
   }
 }

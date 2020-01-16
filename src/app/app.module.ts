@@ -19,6 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatButtonModule, MatButtonToggleModule, MatCardModule} from '@angular/material';
+import { FileReaderToUploadComponent } from './file-reader-to-upload/file-reader-to-upload.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import {MatButtonModule, MatButtonToggleModule, MatCardModule} from '@angular/ma
     DoughnutChartComponent,
     MenuComponent,
     UploadImagesComponent,
+    FileReaderToUploadComponent,
 
   ],
   imports: [

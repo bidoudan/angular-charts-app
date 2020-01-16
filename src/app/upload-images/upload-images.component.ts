@@ -30,10 +30,10 @@ export class UploadImagesComponent implements OnInit {
   loadFiles(){
     this.serviceCompany.getAllFiles().subscribe(files=>{
       this.files = files;
-      console.log(files)
+      console.log(files);
     },err=>{
-      alert("Erreur leur de télechargement des fichiers")
-    })
+      alert("Erreur leur de télechargement des fichiers");
+    });
   }
 
 }

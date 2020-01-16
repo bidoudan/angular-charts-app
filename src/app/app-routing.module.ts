@@ -8,6 +8,7 @@ import {RadarChartComponent} from './radar-chart/radar-chart.component';
 import {MenuComponent} from './menu/menu.component';
 import {BubbleChartComponent} from './bubble-chart/bubble-chart.component';
 import {UploadImagesComponent} from './upload-images/upload-images.component';
+import {FileReaderToUploadComponent} from './file-reader-to-upload/file-reader-to-upload.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,9 @@ const routes: Routes = [
   { path: 'doughnutChart', component: DoughnutChartComponent},
   { path: 'radarChart', component: RadarChartComponent},
   { path: 'bubbleChart', component: BubbleChartComponent},
-  { path: 'uploadImages', component: UploadImagesComponent}
+  { path: 'uploadImage', component: UploadImagesComponent},
+  { path: 'upload', component: FileReaderToUploadComponent}
+
 
 ];
 

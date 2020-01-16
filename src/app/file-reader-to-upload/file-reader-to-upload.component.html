@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6 offset-3">
+      <div class="form-group">
+        <h3>Choose File</h3>
+        <input type="file" name="image" class="form-control" (change)="onUpload($event)">
+      </div>
+      <div *ngIf="previewUrl">
+        <img [src]="previewUrl">
+      </div>
+      <div>
+        <button class="btn btn-primary" (click)="onSubmit()">Upload</button>
+      </div>
+    </div>
+  </div>
+</div>
